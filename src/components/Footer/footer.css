@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+
+  #fh5co-footer .copyright .pull-left,
+  #fh5co-footer .copyright .pull-right {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+#fh5co-footer .copyright .block {
+  display: block;
+}
