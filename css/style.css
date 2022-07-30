@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #fff;
+  color: #000;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -1088,23 +1088,6 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.couple-half .groom2, .couple-half .bride2 {
-  float: left;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-}
-.couple-half .groom2 img, .couple-half .bride2 img {
-  width: 250px;
-  height: 250px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     width: 100%;
@@ -1116,30 +1099,11 @@ form label {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 480px) {
-  .couple-half .groom2, .couple-half .bride2 {
-    width: 100%;
-    height: 140px;
-  }
-  .couple-half .groom2 img, .couple-half .bride2 img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-  }
-}
 .couple-half .groom {
   float: right;
   margin-right: 5px;
 }
-.couple-half .groom2 {
-  float: right;
-  margin-right: 5px;
-}
 .couple-half .bride {
-  float: left;
-  margin-left: 5px;
-}
-.couple-half .bride2 {
   float: left;
   margin-left: 5px;
 }
@@ -1156,24 +1120,11 @@ form label {
     margin-left: 0;
     margin-right: 0;
   }
-  .couple-half .desc-bride2 {
-    padding-left: 180px;
-    text-align: left;
-  }
-  @media screen and (max-width: 480px) {
-    .couple-half .groom, .couple-half .bride2 {
-      margin-left: 0;
-      margin-right: 0;
-    }
   .couple-half .desc-groom {
     padding-right: 0;
     text-align: center;
   }
   .couple-half .desc-bride {
-    padding-left: 0;
-    text-align: center;
-  }
-  .couple-half .desc-bride2 {
     padding-left: 0;
     text-align: center;
   }
@@ -1380,11 +1331,8 @@ form label {
 
 #fh5co-started {
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 #fh5co-started .overlay {
-  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -1494,6 +1442,13 @@ form label {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+.offcanvas #fh5co-offcanvas {
+  -moz-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  transform: translateX(0px);
 }
 #fh5co-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
