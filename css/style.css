@@ -954,7 +954,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
   position: relative;
-  animation: pulse 1s ease infinite;
+  animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
